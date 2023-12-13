@@ -251,6 +251,7 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.lahaina.post_boot.sh \
     init.oplus.hw.rc \
+    init.oplus_extras.rc \
     init.oplus.hw.rc.recovery \
     init.oplus.rc \
     init.oplus.sh \
@@ -299,6 +300,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# OPlusExtras
+PRODUCT_PACKAGES += \
+    OPlusExtras
+
 # OMX
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-impl \
@@ -325,6 +330,7 @@ PRODUCT_PACKAGES += \
     EvolutionSettingsProviderResCommon \
     EvolutionSettingsResCommon \
     EvolutionSystemUIResCommon \
+    OPlusExtrasResCommon \
     FaceUnlockServiceResCommon \
     FrameworksResTarget \
     OPlusFrameworksResCommon \
