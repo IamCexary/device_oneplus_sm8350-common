@@ -351,7 +351,20 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.oplus-libperfmgr
+    android.hardware.power-service.oplus-libperfmgr \
+    android.hardware.power@1.2.vendor    
+    
+PRODUCT_PACKAGES += \
+    libpsi.vendor \
+    libtflite
+
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.3 \
+    vendor.qti.hardware.perf@2.3.vendor
+
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
 
 # QMI
 PRODUCT_PACKAGES += \
@@ -435,7 +448,9 @@ PRODUCT_COPY_FILES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+    android.hardware.thermal@2.0-service.qti \
+    android.hardware.thermal@2.0 \
+    android.hardware.thermal@2.0.vendor
 
 # Touch
 PRODUCT_PACKAGES += \
