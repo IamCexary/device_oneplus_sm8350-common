@@ -50,5 +50,7 @@
     <!-- Battery Health -->
     <string name="config_batteryRemainingCapacityNode">/sys/class/oplus_chg/battery/battery_rm</string>
     <string name="config_batteryDesignCapacityNode">/sys/class/oplus_chg/battery/design_capacity</string>
+    <string name="config_batteryChargeCycles">/sys/class/oplus_chg/battery/battery_cc</string>
+    <string name="config_batteryHealthNode">/sys/class/power_supply/battery/health</string>
     <bool name="config_supportBatteryHealth">true</bool>
 </resources>
