@@ -346,6 +346,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service.oplus-libperfmgr
 
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
